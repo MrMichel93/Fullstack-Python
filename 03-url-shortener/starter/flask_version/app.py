@@ -133,4 +133,6 @@ if __name__ == '__main__':
     print("🔗 URL Shortener is running!")
     print("📊 Open http://localhost:5000 in your browser")
     print("📈 View stats at http://localhost:5000/stats")
+    # NOTE: debug=True is for development/learning only
+    # In production, set debug=False and use a proper WSGI server
     app.run(debug=True, port=5000)

@@ -97,4 +97,6 @@ if __name__ == '__main__':
     init_db()
     print("📰 Simple Blog is running!")
     print("🌐 Open http://localhost:5000")
+    # NOTE: debug=True is for development/learning only
+    # In production, set debug=False and use a proper WSGI server
     app.run(debug=True, port=5000)
