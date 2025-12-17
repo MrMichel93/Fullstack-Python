@@ -64,6 +64,36 @@ Create a Flask application with a feedback form:
 
 ---
 
+## 📝 Practice Problems Now Available as Code!
+
+**NEW:** These practice problems are now available as individual Python files with automated tests!
+
+### How to Use
+
+1. Navigate to the `problems/` directory:
+   ```bash
+   cd modules/00-flask-setup/problems/
+   ```
+
+2. Read the problem description in each Python file
+3. Complete the TODO sections
+4. Run tests to verify your solution:
+   ```bash
+   pytest test_problem1.py -v  # For Problem 1
+   pytest test_problem2.py -v  # For Problem 2
+   pytest test_problem3.py -v  # For Problem 3
+   ```
+
+### Available Files
+
+- **Problem 1:** `problem1_portfolio.py` + `test_problem1.py`
+- **Problem 2:** `problem2_greeting.py` + `test_problem2.py`
+- **Problem 3:** `problem3_form.py` + `test_problem3.py`
+
+See `problems/README.md` for detailed instructions!
+
+---
+
 ## Next Steps
 
 After completing these practice problems:
