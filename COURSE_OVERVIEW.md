@@ -25,8 +25,39 @@ By the end of this course, students will be able to:
 
 ## 📚 Course Structure
 
-### Module 1: Architecture Primer (1-2 hours)
-**Location:** `01-architecture-primer/`
+The course is divided into two main sections:
+
+### Part 1: Modules (Learning Materials)
+**Location:** `modules/`
+
+Instructional content that teaches Flask fundamentals. Students should read these before starting projects.
+
+### Part 2: Projects (Hands-on Practice)
+**Location:** `projects/`
+
+Practical applications where students apply their Flask knowledge.
+
+---
+
+## Module 0: Flask Setup & Installation (30 minutes)
+**Location:** `modules/00-flask-setup/`
+
+**Objective:** Get Flask installed and understand the basics
+
+**Topics:**
+- Installing Flask and dependencies
+- Virtual environments
+- Flask project structure
+- Your first Flask application
+- Routes, templates, and static files
+- Common Flask patterns
+
+**Outcome:** Students have Flask installed and understand basic Flask concepts
+
+---
+
+## Module 1: Architecture Primer (1-2 hours)
+**Location:** `modules/01-architecture-primer/`
 
 **Objective:** Understand how web applications work before writing code
 
@@ -41,8 +72,8 @@ By the end of this course, students will be able to:
 
 ---
 
-### Module 2: Notes App (2-3 hours)
-**Location:** `02-notes-app/`
+## Project 1: Notes App (2-3 hours)
+**Location:** `projects/02-notes-app/`
 
 **New Backend Concepts:**
 - CRUD operations (Create, Read, Update, Delete)
@@ -62,8 +93,8 @@ By the end of this course, students will be able to:
 
 ---
 
-### Module 3: URL Shortener (2-3 hours)
-**Location:** `03-url-shortener/`
+## Project 2: URL Shortener (2-3 hours)
+**Location:** `projects/03-url-shortener/`
 
 **New Backend Concepts:**
 - Random string generation
@@ -83,8 +114,8 @@ By the end of this course, students will be able to:
 
 ---
 
-### Module 4: Simple Blog (2-3 hours)
-**Location:** `04-simple-blog/`
+## Project 3: Simple Blog (2-3 hours)
+**Location:** `projects/04-simple-blog/`
 
 **New Backend Concepts:**
 - Multi-page routing
@@ -104,8 +135,8 @@ By the end of this course, students will be able to:
 
 ---
 
-### Module 5: Inventory Tracker (3-4 hours)
-**Location:** `05-inventory-tracker/`
+## Project 4: Inventory Tracker (3-4 hours)
+**Location:** `projects/05-inventory-tracker/`
 
 **New Backend Concepts:**
 - User authentication (register, login, logout)
@@ -126,8 +157,8 @@ By the end of this course, students will be able to:
 
 ---
 
-### Module 6: Security Basics (1-2 hours reading)
-**Location:** `06-security-basics/`
+## Module 2: Security Basics (1-2 hours reading)
+**Location:** `modules/06-security-basics/`
 
 **Topics:**
 - Password hashing (bcrypt, pbkdf2)
@@ -145,8 +176,8 @@ By the end of this course, students will be able to:
 
 ---
 
-### Module 7: Debugging & Testing (Reference)
-**Location:** `07-debugging-testing/`
+## Module 3: Debugging & Testing (Reference)
+**Location:** `modules/07-debugging-testing/`
 
 **Topics:**
 - Logging vs print debugging
@@ -220,15 +251,18 @@ Students can:
 
 **Total Course Time:** 15-20 hours
 
-| Module | Time |
-|--------|------|
+| Section | Time |
+|---------|------|
+| **Modules (Learning)** | |
+| Flask Setup | 30 minutes |
 | Architecture Primer | 1-2 hours |
+| Security Basics | 1-2 hours |
+| Debugging & Testing | As needed |
+| **Projects (Practice)** | |
 | Notes App | 2-3 hours |
 | URL Shortener | 2-3 hours |
 | Simple Blog | 2-3 hours |
 | Inventory Tracker | 3-4 hours |
-| Security Reading | 1-2 hours |
-| Debugging Reference | As needed |
 
 **Note:** Times are estimates for average students. Some will be faster, others slower.
 

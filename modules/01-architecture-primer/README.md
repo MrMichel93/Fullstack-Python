@@ -301,7 +301,7 @@ Now that you understand:
 
 You're ready to build your first project!
 
-**Next:** [Notes App](../02-notes-app/) - Build a CRUD application
+**Next:** [Notes App](../../projects/02-notes-app/) - Build a CRUD application
 
 ---
 
