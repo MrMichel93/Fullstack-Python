@@ -18,6 +18,7 @@ Each module includes:
 - Detailed explanations of concepts
 - Code examples to illustrate ideas
 - Best practices and patterns
+- **3 practice problems** to reinforce learning
 - Resources for further learning
 
 ## 📖 Available Modules
@@ -26,7 +27,7 @@ Read these modules in order before starting projects:
 
 ### Module 0: [Flask Setup & Installation](./00-flask-setup/)
 **Type:** Setup Guide  
-**Time:** 30 minutes
+**Time:** 30 minutes (reading) + 1 hour (practice problems)
 
 Learn to install and configure Flask:
 - Installing Flask and dependencies
@@ -35,6 +36,7 @@ Learn to install and configure Flask:
 - Your first Flask application
 - Routes, templates, and static files
 - Common Flask patterns
+- **3 practice problems** to build your first Flask apps
 
 **Start here** if you're new to Flask!
 
@@ -42,7 +44,7 @@ Learn to install and configure Flask:
 
 ### Module 1: [Architecture Primer](./01-architecture-primer/)
 **Type:** Conceptual Guide  
-**Time:** 1-2 hours
+**Time:** 1-2 hours (reading) + 45 minutes (practice problems)
 
 Understand how web applications work:
 - Client vs Server architecture
@@ -50,6 +52,7 @@ Understand how web applications work:
 - HTTP methods (GET, POST)
 - Data flow through web apps
 - URL structure
+- **3 practice problems** to test your understanding
 
 **Essential reading** before building any web application.
 
@@ -57,7 +60,7 @@ Understand how web applications work:
 
 ### Module 2: [Security Basics](./06-security-basics/)
 **Type:** Security Guide  
-**Time:** 1-2 hours
+**Time:** 1-2 hours (reading) + 1-1.5 hours (practice problems)
 
 Learn essential security practices:
 - Password hashing (bcrypt, pbkdf2)
@@ -66,6 +69,7 @@ Learn essential security practices:
 - Cross-Site Scripting (XSS)
 - Cross-Site Request Forgery (CSRF)
 - Session security
+- **3 practice problems** to apply security concepts
 
 **Read this early** to build secure applications from the start. Review before each project.
 
@@ -73,7 +77,7 @@ Learn essential security practices:
 
 ### Module 3: [Debugging & Testing](./07-debugging-testing/)
 **Type:** Reference Guide  
-**Time:** As needed
+**Time:** 1-2 hours (reading) + 1.5 hours (practice problems)
 
 Professional development practices:
 - Logging techniques
@@ -82,6 +86,7 @@ Professional development practices:
 - Testing with pytest
 - Common debugging scenarios
 - Flask Debug Toolbar
+- **3 practice problems** to master debugging and testing
 
 **Use as a reference** when you encounter issues or want to improve your debugging skills.
 
@@ -96,10 +101,11 @@ Start with Module 0 (Flask Setup) and work your way through:
 ```
 
 ### 2. Take Your Time
-These are learning materials, not exercises:
+These are learning materials with hands-on practice:
 - Read carefully and take notes
 - Try the code examples
 - Understand the concepts, don't just skim
+- **Complete the 3 practice problems** at the end of each module
 - Ask questions if something is unclear
 
 ### 3. Revisit When Needed
@@ -109,8 +115,14 @@ Come back to these modules:
 - **Security Basics** - Before each project and before production
 - **Debugging & Testing** - When you encounter issues
 
-### 4. Apply in Projects
-After reading these modules, apply what you learned in the [projects](../projects/) folder:
+### 4. Complete Practice Problems
+Each module has 3 practice problems:
+- Start with easy problems to build confidence
+- Progress to medium difficulty challenges
+- Use practice problems to verify understanding before projects
+
+### 5. Apply in Projects
+After completing the modules and practice problems, apply what you learned in the [projects](../projects/) folder:
 - Notes App
 - URL Shortener
 - Simple Blog
@@ -263,13 +275,16 @@ Once you've read through all the modules:
 ## ❓ Frequently Asked Questions
 
 **Q: Do I need to complete all modules before starting projects?**  
-A: Read Modules 0 and 1 first. Skim Module 2 (Security) and use Module 3 (Debugging) as reference.
+A: Read Modules 0 and 1 first, and complete their practice problems. Skim Module 2 (Security) and use Module 3 (Debugging) as reference.
+
+**Q: Should I do the practice problems?**  
+A: Yes! The practice problems help solidify concepts before you tackle full projects. They're designed to be quick (10-35 minutes each) and build confidence.
 
 **Q: Can I skip modules I already know?**  
-A: Quick review is recommended even if familiar, but you can skip if confident.
+A: Quick review is recommended even if familiar, but you can skip if confident. Still try the practice problems to verify your understanding.
 
 **Q: How long should I spend on modules?**  
-A: Take your time. Understanding is more important than speed. 2-4 hours total is typical.
+A: Take your time. Understanding is more important than speed. 2-4 hours reading + 4-5 hours practice problems is typical for all modules.
 
 **Q: Should I memorize everything?**  
 A: No! Understand concepts and know where to find details. You'll memorize through practice.
