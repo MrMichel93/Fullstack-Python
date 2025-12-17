@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Edit Note{% endblock %}
+
+{% block content %}
+<div class="section">
+    <h2>Edit Note</h2>
+    
+    <!-- TODO: Create a form that submits to /notes/{{ note.id }}/update using POST -->
+    <!-- Pre-fill the form with existing note data:
+         - Use value="{{ note.title }}" for the title input
+         - Put {{ note.content }} inside the textarea
+    -->
+    
+    <form>
+        <!-- Your form fields here -->
+        <p>TODO: Add form fields pre-filled with note.title and note.content</p>
+        
+        <div class="form-actions">
+            <button type="submit">Save Changes</button>
+            <a href="/" class="button-secondary">Cancel</a>
+        </div>
+    </form>
+</div>
+{% endblock %}

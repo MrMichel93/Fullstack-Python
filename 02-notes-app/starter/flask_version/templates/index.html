@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}Notes - Home{% endblock %}
+
+{% block content %}
+<div class="section">
+    <h2>Create a New Note</h2>
+    
+    <!-- TODO: Create a form that submits to /notes using POST method -->
+    <!-- The form needs: 
+         - action="/notes" or action="{{ url_for('create_note') }}"
+         - method="POST"
+         - input field with name="title" for the note title
+         - textarea with name="content" for the note content
+         - submit button
+    -->
+    
+    <form>
+        <!-- Your form fields here -->
+        <p>TODO: Add form fields for title and content</p>
+    </form>
+</div>
+
+<div class="section">
+    <h2>My Notes</h2>
+    
+    {% if notes %}
+        <!-- TODO: Loop through notes and display them -->
+        <!-- Use {% for note in notes %} ... {% endfor %} -->
+        <!-- Each note should show:
+             - note.title (or note['title'])
+             - note.content (or note['content'])
+             - note.created_at (or note['created_at'])
+             - Edit link: <a href="/notes/{{ note.id }}/edit">Edit</a>
+             - Delete form with POST to /notes/{{ note.id }}/delete
+        -->
+        
+        <div class="note-list">
+            <p>TODO: Display notes here</p>
+            <p>Hint: Use a for loop to iterate over notes</p>
+        </div>
+    {% else %}
+        <p class="empty-state">No notes yet. Create your first note above! ✨</p>
+    {% endif %}
+</div>
+{% endblock %}
