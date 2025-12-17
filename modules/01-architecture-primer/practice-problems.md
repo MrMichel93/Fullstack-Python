@@ -123,6 +123,36 @@ scheme   host    port  path  query  fragment
 
 ---
 
+## 📝 Practice Problems Now Available as Code!
+
+**NEW:** These practice problems are now available as individual Python files with automated tests!
+
+### How to Use
+
+1. Navigate to the `problems/` directory:
+   ```bash
+   cd modules/01-architecture-primer/problems/
+   ```
+
+2. Read the problem description in each Python file
+3. Complete the TODO sections (fill in functions with your understanding)
+4. Run tests to verify your solution:
+   ```bash
+   pytest test_problem1.py -v  # For Problem 1
+   pytest test_problem2.py -v  # For Problem 2
+   pytest test_problem3.py -v  # For Problem 3
+   ```
+
+### Available Files
+
+- **Problem 1:** `problem1_request_journey.py` + `test_problem1.py`
+- **Problem 2:** `problem2_url_design.py` + `test_problem2.py`
+- **Problem 3:** `problem3_debug_code.py` + `test_problem3.py`
+
+See `problems/README.md` for detailed instructions!
+
+---
+
 ## Ready for Projects?
 
 Now that you understand:

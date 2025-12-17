@@ -239,4 +239,36 @@ logger.debug(f"Headers: {request.headers}")
 
 ---
 
+## 📝 Practice Problems Now Available as Code!
+
+**NEW:** These practice problems are now available as individual Python files with automated tests!
+
+### How to Use
+
+1. Navigate to the `problems/` directory:
+   ```bash
+   cd modules/07-debugging-testing/problems/
+   ```
+
+2. Read the problem description in each Python file
+3. Complete the TODO sections
+4. Run tests to verify your solution:
+   ```bash
+   pytest test_problem1.py -v  # For Problem 1
+   pytest test_problem2.py -v  # For Problem 2
+   pytest test_problem3.py -v  # For Problem 3
+   ```
+
+### Available Files
+
+- **Problem 1:** `problem1_logging.py` + `test_problem1.py` - Add logging to Flask app
+- **Problem 2:** `problem2_debug_bugs.py` + `test_problem2.py` - Find and fix bugs
+- **Problem 3:** `problem3_calculator.py` (working code) + `test_problem3.py` (you write tests!)
+
+⚠️ **Note:** Problem 2 contains intentionally broken code for learning purposes!
+
+See `problems/README.md` for detailed instructions!
+
+---
+
 **Done with the course?** Time to build your own projects! 🚀

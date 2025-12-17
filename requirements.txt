@@ -13,3 +13,6 @@ Jinja2==3.1.2  # Templates for FastAPI
 
 # Optional but recommended
 python-dotenv==1.0.0  # Environment variables
+
+# Testing
+pytest==7.4.3  # Testing framework
