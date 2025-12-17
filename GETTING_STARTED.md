@@ -59,10 +59,13 @@ This installs Flask and other necessary packages.
 
 ## 🚀 Running Your First Project
 
-### Start with the Architecture Primer
+### Start with Flask Setup
 
-1. Read the [Architecture Primer](./01-architecture-primer/README.md) to understand web app basics
-2. It covers:
+1. Read the [Flask Setup Guide](./modules/00-flask-setup/README.md) to install and understand Flask
+2. Then read the [Architecture Primer](./modules/01-architecture-primer/README.md) to understand web fundamentals
+3. These modules cover:
+   - Installing Flask
+   - Flask project structure
    - Client vs Server
    - Request/Response lifecycle
    - How data flows through web apps
@@ -72,7 +75,7 @@ This installs Flask and other necessary packages.
 Let's test your setup with the complete solution:
 
 ```bash
-cd 02-notes-app/solution/flask_version
+cd projects/02-notes-app/solution/flask_version
 python app.py
 ```
 
@@ -95,35 +98,45 @@ Press `Ctrl+C` in the terminal to stop the server.
 
 ### Recommended Order
 
-1. **[Architecture Primer](./01-architecture-primer/)** - Start here! (30 min)
-   - Understand web fundamentals before coding
+**Phase 1: Learn Flask Fundamentals (modules/)**
 
-2. **[Notes App](./02-notes-app/)** - Your first project (2-3 hours)
+1. **[Flask Setup](./modules/00-flask-setup/)** - Install and understand Flask (30 min)
+   - Install Flask
+   - Understand project structure
+   - Learn basic Flask patterns
+
+2. **[Architecture Primer](./modules/01-architecture-primer/)** - Web fundamentals (30 min)
+   - Understand client-server model
+   - Learn request/response cycle
+
+3. **[Security Basics](./modules/06-security-basics/)** - Essential security (1-2 hours)
+   - Read early to build secure habits
+   - Review before each project
+
+4. **[Debugging & Testing](./modules/07-debugging-testing/)** - Reference guide
+   - Use when you get stuck
+   - Learn debugging techniques
+
+**Phase 2: Build Projects (projects/)**
+
+5. **[Notes App](./projects/02-notes-app/)** - Your first project (2-3 hours)
    - Start with `starter/flask_version/`
    - Follow TODOs in the code
    - Check solution if stuck
 
-3. **[URL Shortener](./03-url-shortener/)** - Build on what you learned (2-3 hours)
+6. **[URL Shortener](./projects/03-url-shortener/)** - Build on what you learned (2-3 hours)
    - New concepts: redirects, URL generation
    - Practice database queries
 
-4. **[Simple Blog](./04-simple-blog/)** - Multi-page app (2-3 hours)
+7. **[Simple Blog](./projects/04-simple-blog/)** - Multi-page app (2-3 hours)
    - Template inheritance
    - Static files
    - Navigation
 
-5. **[Inventory Tracker](./05-inventory-tracker/)** - Add authentication (3-4 hours)
+8. **[Inventory Tracker](./projects/05-inventory-tracker/)** - Add authentication (3-4 hours)
    - User registration/login
    - Password security
    - Protected routes
-
-6. **[Security Basics](./06-security-basics/)** - Essential reading
-   - Read before building your own apps
-   - Covers common vulnerabilities
-
-7. **[Debugging & Testing](./07-debugging-testing/)** - Reference guide
-   - Use when you get stuck
-   - Learn debugging techniques
 
 ## 🛠️ Development Workflow
 
@@ -139,7 +152,7 @@ Press `Ctrl+C` in the terminal to stop the server.
 ### Example: Starting Notes App
 
 ```bash
-cd 02-notes-app/starter/flask_version
+cd projects/02-notes-app/starter/flask_version
 code .  # Opens VS Code (or use your editor)
 python app.py  # Run the app
 ```
@@ -265,13 +278,14 @@ Before starting projects:
 - [ ] Virtual environment created and activated
 - [ ] Dependencies installed (`pip install -r requirements.txt`)
 - [ ] Ran Notes App solution successfully
+- [ ] Read Flask Setup Guide
 - [ ] Read Architecture Primer
 - [ ] Text editor ready
 - [ ] Browser open
 
 ## 🚀 Ready to Start!
 
-You're all set! Head to the [Architecture Primer](./01-architecture-primer/) to begin your journey.
+You're all set! Head to the [Flask Setup Guide](./modules/00-flask-setup/) to begin your journey.
 
 **Remember:** Learning to code is a marathon, not a sprint. Take your time, practice regularly, and don't be afraid to make mistakes. That's how you learn!
 
@@ -279,4 +293,4 @@ Happy coding! 🎉
 
 ---
 
-**Need help?** Open an issue on GitHub or check the [Debugging & Testing guide](./07-debugging-testing/).
+**Need help?** Open an issue on GitHub or check the [Debugging & Testing guide](./modules/07-debugging-testing/).
