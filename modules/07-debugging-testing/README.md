@@ -624,7 +624,7 @@ Take an existing Flask application (or create a simple one) and add comprehensiv
 
 A Flask notes application has several bugs. Use debugging techniques to find and fix them!
 
-**Buggy Code:**
+**Buggy Code (intentionally broken for learning purposes):**
 ```python
 from flask import Flask, request, render_template, redirect
 import sqlite3
@@ -653,7 +653,7 @@ def add_note():
 @app.route('/delete/<id>')
 def delete_note(id):
     db = get_db()
-    db.execute('DELETE FROM notes WHERE id = ?', (id))
+    db.execute('DELETE FROM notes WHERE id = ?', (id))  # BUG: Missing trailing comma in tuple
     db.commit()
     return redirect('/')
 

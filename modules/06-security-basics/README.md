@@ -511,7 +511,7 @@ Create a Flask application with a secure user registration system:
 
 You've been given a Flask app with security vulnerabilities. Fix all the issues!
 
-**Vulnerable Code:**
+**Vulnerable Code (intentionally insecure for learning purposes):**
 ```python
 @app.route('/search')
 def search():
