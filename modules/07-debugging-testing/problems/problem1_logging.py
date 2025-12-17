@@ -147,4 +147,6 @@ def get_item(item_id):
 
 if __name__ == '__main__':
     configure_logging()
+    # Debug mode is enabled for learning/development purposes only
+    # Never use debug=True in production!
     app.run(debug=True)

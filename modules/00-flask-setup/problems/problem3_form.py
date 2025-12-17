@@ -60,4 +60,6 @@ feedback_list = []
 
 
 if __name__ == '__main__':
+    # Debug mode is enabled for learning/development purposes only
+    # Never use debug=True in production!
     app.run(debug=True)

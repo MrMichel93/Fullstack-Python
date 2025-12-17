@@ -117,6 +117,8 @@ def post_comment():
     comment = request.form.get('comment', '')
     
     # VULNERABLE: Using |safe filter on user input
+    # ⚠️ DANGEROUS: The |safe filter below disables auto-escaping, allowing XSS attacks!
+    # This is one of the most dangerous patterns in Flask - never use |safe on user input!
     template = """
     <html>
     <body>
@@ -129,4 +131,6 @@ def post_comment():
 
 
 if __name__ == '__main__':
+    # Debug mode is enabled for learning/development purposes only
+    # Never use debug=True in production!
     app.run(debug=True)
