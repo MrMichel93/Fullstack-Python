@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}URL Statistics{% endblock %}
+
+{% block content %}
+<div class="section">
+    <h2>📊 URL Statistics</h2>
+    
+    {% if urls %}
+        <table class="stats-table">
+            <thead>
+                <tr>
+                    <th>Short Code</th>
+                    <th>Original URL</th>
+                    <th>Clicks</th>
+                    <th>Created</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for url in urls %}
+                <tr>
+                    <td>
+                        <a href="/{{ url['short_code'] }}" target="_blank">
+                            {{ url['short_code'] }}
+                        </a>
+                    </td>
+                    <td class="url-cell">{{ url['original_url'] }}</td>
+                    <td class="clicks">{{ url['clicks'] }}</td>
+                    <td>{{ url['created_at'] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p class="empty-state">No URLs shortened yet. <a href="/">Create your first one!</a></p>
+    {% endif %}
+</div>
+{% endblock %}

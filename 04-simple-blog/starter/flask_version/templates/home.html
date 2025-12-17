@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Latest Posts</h2>
+
+<!-- TODO: Loop through posts and display them -->
+{% if posts %}
+    {% for post in posts %}
+    <article class="post-preview">
+        <h3><a href="/post/{{ post.id }}">{{ post.title }}</a></h3>
+        <div class="post-meta">
+            <span class="category">{{ post.category }}</span>
+            <span class="author">by {{ post.author }}</span>
+            <span class="date">{{ post.created_at }}</span>
+        </div>
+        <p>{{ post.content[:200] }}...</p>
+        <a href="/post/{{ post.id }}" class="read-more">Read more →</a>
+    </article>
+    {% endfor %}
+{% else %}
+    <p>No posts yet. <a href="/create">Create the first one!</a></p>
+{% endif %}
+{% endblock %}
