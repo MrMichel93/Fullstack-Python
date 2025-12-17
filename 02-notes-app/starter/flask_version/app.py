@@ -20,7 +20,7 @@ DATABASE = 'notes.db'
 def get_db():
     """Create a database connection"""
     db = sqlite3.connect(DATABASE)
-    db.row_factory = sqlite3.Row  # Access columns by name
+    db.row_factory = sqlite3.Row  # Enables dict-style access: row['column_name']
     return db
 
 

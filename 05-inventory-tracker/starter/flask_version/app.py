@@ -16,7 +16,9 @@ import sqlite3
 import os
 
 app = Flask(__name__)
-app.secret_key = os.urandom(24)  # For session management
+# NOTE: In production, use a fixed secret key from environment variables
+# For development/learning, this is acceptable
+app.secret_key = os.getenv('SECRET_KEY', 'dev-secret-key-change-in-production')
 DATABASE = 'inventory.db'
 
 

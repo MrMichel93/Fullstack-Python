@@ -276,10 +276,13 @@ app = Flask(__name__)
 
 # Session configuration
 app.config['SECRET_KEY'] = 'your-secret-key-here'  # Use environment variable!
-app.config['SESSION_COOKIE_SECURE'] = True  # HTTPS only
+app.config['SESSION_COOKIE_SECURE'] = True  # HTTPS only (disable in dev on localhost)
 app.config['SESSION_COOKIE_HTTPONLY'] = True  # No JavaScript access
 app.config['SESSION_COOKIE_SAMESITE'] = 'Lax'  # CSRF protection
 app.config['PERMANENT_SESSION_LIFETIME'] = 1800  # 30 minutes
+
+# For development on localhost (HTTP):
+# app.config['SESSION_COOKIE_SECURE'] = False
 ```
 
 ### Generate Strong Secret Keys
