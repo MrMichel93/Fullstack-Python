@@ -80,4 +80,6 @@ def init_db():
 
 if __name__ == '__main__':
     init_db()
+    # Debug mode is enabled for learning/development purposes only
+    # Never use debug=True in production!
     app.run(debug=True)
